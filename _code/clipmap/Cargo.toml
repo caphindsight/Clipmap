@@ -1,0 +1,11 @@
+[package]
+name = "clipmap"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies.godot]
+version = "0.4.4"
+features = ["api-4-5", "experimental-threads", "safeguards-release-disengaged", "register-docs"]
