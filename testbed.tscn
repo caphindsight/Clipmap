@@ -1,0 +1,17 @@
+[gd_scene load_steps=2 format=3 uid="uid://bc12h0024a01d"]
+
+[sub_resource type="ClipmapMesh" id="ClipmapMesh_f8j2m"]
+clipmap/number_of_lods = 4
+clipmap/lod_0/size = 16.0
+clipmap/lod_0/subdivisions = 32
+clipmap/lod_1/size = 32.0
+clipmap/lod_1/subdivisions = 32
+clipmap/lod_2/size = 64.0
+clipmap/lod_2/subdivisions = 32
+clipmap/lod_3/size = 128.0
+clipmap/lod_3/subdivisions = 32
+
+[node name="Testbed" type="Node3D"]
+
+[node name="Mesh" type="MeshInstance3D" parent="."]
+mesh = SubResource("ClipmapMesh_f8j2m")
