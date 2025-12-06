@@ -1,5 +1,7 @@
 # Clipmap
 
+Available in Godot's [asset library](https://godotengine.org/asset-library/asset/4545).
+
 Adds a mesh primitive called `ClipmapMesh`.
 
 `ClipmapMesh` looks like a plane mesh, but contains regions of variable detalization.
