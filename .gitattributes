@@ -1,0 +1,9 @@
+# Normalize EOL for all files that Git considers text files.
+* text=auto eol=lf
+# Only include the addons folder when downloading from the Asset Library.
+/**                    export-ignore
+/addons/clipmap       !export-ignore
+/addons/clipmap/rust   export-ignore
+*.dll filter=lfs diff=lfs merge=lfs -text
+*.so filter=lfs diff=lfs merge=lfs -text
+*.dylib filter=lfs diff=lfs merge=lfs -text

@@ -1,0 +1,21 @@
+[configuration]
+entry_symbol = "gdext_rust_init"
+compatibility_minimum = 4.7
+reloadable = true
+
+[libraries]
+windows.debug.x86_64 = "res://addons/clipmap/clipmap.x86.dev.dll"
+windows.release.x86_64 = "res://addons/clipmap/clipmap.x86.opt.dll"
+windows.debug.arm64 = "res://addons/clipmap/clipmap.arm.dev.dll"
+windows.release.arm64 = "res://addons/clipmap/clipmap.arm.opt.dll"
+linux.debug.x86_64 = "res://addons/clipmap/libclipmap.x86.dev.so"
+linux.release.x86_64 = "res://addons/clipmap/libclipmap.x86.opt.so"
+linux.debug.arm64 = "res://addons/clipmap/libclipmap.arm.dev.so"
+linux.release.arm64 = "res://addons/clipmap/libclipmap.arm.opt.so"
+macos.debug.x86_64 = "res://addons/clipmap/libclipmap.x86.dev.dylib"
+macos.release.x86_64 = "res://addons/clipmap/libclipmap.x86.opt.dylib"
+macos.debug.arm64 = "res://addons/clipmap/libclipmap.arm.dev.dylib"
+macos.release.arm64 = "res://addons/clipmap/libclipmap.arm.opt.dylib"
+
+[icons]
+ClipmapMesh = "res://addons/clipmap/clipmap_mesh.svg"
