@@ -1,4 +1,4 @@
-# Clipmap
+# <img src="https://raw.githubusercontent.com/caphindsight/Clipmap/refs/heads/master/addons/clipmap/clipmap_mesh.svg" width="24"> ClipmapMesh
 
 Adds a mesh primitive called `ClipmapMesh`.
 
